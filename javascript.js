@@ -9,3 +9,5 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
+
+//The above code is for the sliding of the screen
