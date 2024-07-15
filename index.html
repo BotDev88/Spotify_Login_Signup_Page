@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login/Signup</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <body>
+        <div class="logohead">
+            <a href="#"><img src="Assets/Spotify_BLK_Logo.png" class="logo"></a>
+        </div>
+        <!--This is the logo at the top of the page-->
+        <div class="container" id="container">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Create Account</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icons"><i class='bx bxl-google' style='color:#000' ></i></a>
+                        <a href="#" class="icons"><i class='bx bxl-meta' style='color:#000' ></i></a>
+                        <a href="#" class="icons"><i class='bx bxl-apple' style='color:#000' ></i></a>
+                    </div>
+                    <span>Register with E-mail</span>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Enter E-mail">
+                    <input type="password" placeholder="Enter Password">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <!--The above code is to create a new account-->
+    
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Sign In</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icons"><i class='bx bxl-google' style='color:#000' ></i></a>
+                        <a href="#" class="icons"><i class='bx bxl-meta' style='color:#000' ></i></a>
+                        <a href="#" class="icons"><i class='bx bxl-apple' style='color:#000' ></i></a>
+                    </div>
+                    <span>Login With Email & Password</span>
+                    <input type="email" placeholder="Enter E-mail">
+                    <input type="password" placeholder="Enter Password">
+                    <a href="#">Forget Password?</a>
+                    <button>Login</button>
+                </form>
+            </div>
+            <!--The above code is to singin to your acount-->
+    
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Welcome To <br>Spotify</h1>
+                        <p>Login in and listen!</p>
+                        <button class="hidden" id="login">Log In</button>
+                    </div>
+                    <!--The above welcome's the user to Spotify-->
+                    <div class="toggle-panel toggle-right">
+                        <h1>Welcome</h1>
+                        <p>Sign up to start listening</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                    <!--The above prompts the user to create a account-->
+                </div>
+            </div>
+        </div>
+        <br>
+       <div class="siteinfo">
+        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
